@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d5e1ef;
+}
+
+p {
+  color: #d5e1ef;
+}
+.qr_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #ffffff;
+  width: 320px;
+  height: 497px;
+  padding: 10px;
+  border-radius: 10px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
